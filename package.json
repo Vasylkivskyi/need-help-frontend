@@ -7,13 +7,22 @@
     "start": "next start"
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^9.5.2",
     "next": "latest",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-redux": "^7.1.0",
     "redux": "^4.0.4",
     "redux-devtools-extension": "^2.13.8",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-react": "^7.21.5"
+  }
 }

@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux'
-import { incrementCount, decrementCount, resetCount } from '../actions'
+import { incrementCount, decrementCount, resetCount } from '../Containers/Counter/counterActions';
 
 const Counter = () => {
   const count = useSelector((state) => state.counter)
