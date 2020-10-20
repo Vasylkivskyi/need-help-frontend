@@ -3,7 +3,7 @@ import { useStore } from '../store'
 
 export default function App({ Component, pageProps }) {
   const store = useStore(pageProps.initialReduxState)
-
+  // test comment
   return (
     <Provider store={store}>
       <Component {...pageProps} />
