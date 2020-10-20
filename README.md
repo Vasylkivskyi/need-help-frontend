@@ -1,6 +1,6 @@
 # Need help
 
-App to help peaple to find answers on their questions
+App to help people to find answers to their questions
 
 ## How to use
 
