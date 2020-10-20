@@ -1,4 +1,4 @@
-# Need help
+# "Need help" app
 
 App to help people to find answers to their questions
 
