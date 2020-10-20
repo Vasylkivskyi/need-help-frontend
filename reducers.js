@@ -8,7 +8,7 @@ const counterReducer = (state = 0, { type }) => {
       return state + 1
     case types.DECREMENT:
       return state - 1
-    case types.RESET:
+
       return 0
     default:
       return state
